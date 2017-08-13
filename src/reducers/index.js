@@ -5,9 +5,9 @@ import ActiveBookReducer from './ActiveBookReducer';
 
 
 // maps state and reducer
-const rootReducer = combineReducers({
+const reducers = combineReducers({
   books: BooksReducer,
   activeBook: ActiveBookReducer,
 });
 
-export default rootReducer; 
+export default reducers; 
