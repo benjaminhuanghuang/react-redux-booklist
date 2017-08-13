@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 
-class BookList extends Component {
+class BookDetail extends Component {
   render(){
     if(!this.props.book){
       return <div> select book </div>;
