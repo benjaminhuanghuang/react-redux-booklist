@@ -30,7 +30,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return bindActionCreators(
-    { selectBook},
+    { selectBook: selectBook},
     dispatch
   )
 }
